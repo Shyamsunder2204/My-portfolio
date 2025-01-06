@@ -59,6 +59,10 @@ export default function Home() {
         setNumber("");
     }, 5000); 
 }
+const handleMenuClick = () => {
+    const checkBox = document.getElementById('check');
+    checkBox.checked = false;
+};
   return (
     <div className="main-container">
       <nav className="nav-bar">
@@ -70,7 +74,7 @@ export default function Home() {
                 </label>
             </div>
             <input type="checkbox" name="check" id="check" />
-            <ul className="nav-links">
+            <ul className="nav-links" onClick={handleMenuClick}>
             <li><a href="#">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
