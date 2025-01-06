@@ -322,7 +322,7 @@
 }
 .aboutMe-container p{
   margin:0px 12%;
-  text-align: start;
+  text-align: center;
 }
 .project-heading{
   text-align: center;
@@ -338,6 +338,7 @@
   gap:20px;
   margin: auto;
   color:rgb(227, 221, 221);
+  flex-wrap: wrap;
 }
 .my-projects-container .project-1, .project-2,.project-3{
   background-color: black;
@@ -436,7 +437,6 @@
   color:white;
   margin-left: 10px;
   margin-right: 10px;
-
 }
 .contact-flex-div .imageContainer{
   margin-left: 30px;
@@ -611,9 +611,7 @@
     color:white;
     margin-right: 0px;
   }
-  .contact-form{
-    margin-right: 0px;
-  }
+  
   .contact-form .name-div{
     display: flex;
     flex-direction: column;
@@ -625,7 +623,7 @@
     padding:7px;
   }
   .contact-flex-div img{
-    width:auto; 
+    width:100%; 
   }
   .my-projects-container .project-1, .project-2,.project-3{
     margin-left: 15px;
@@ -671,7 +669,7 @@ margin-left: 10px;
     padding:10px;
   }
 };
-@media (max-width:600px){.skill-set-div{flex-direction: column;}.backend-div, .frontend-div, .others-div{padding:20px !important;max-width:100%;width:auto !important;margin:0 2.5rem !important;box-sizing: border-box;}.contact-form{margin-right: 0px !important;padding:28px 28px 28px 10px !important}.contact-flex-div{margin-right: 10px !important;gap:0 !important;}.contact-flex-div img{width:100% !important} .footer{margin:5px 13px 0px !important;padding:30px !important}.social-web-container{gap:0 !important}.skill-container p{text-align: center !important;}.aboutMe-container h3{margin-bottom: 20px !important;} .aboutMe-container p{text-align: center !important;}.nav-links{height:192px;gap:0 !important;top:78px !important}}
+@media (max-width:600px){.skill-set-div{flex-direction: column;}.backend-div, .frontend-div, .others-div{padding:20px !important;max-width:100%;width:auto !important;margin:0 2.5rem !important;box-sizing: border-box;}.contact-form{padding:28px 28px 28px 10px !important;}.contact-flex-div{margin-left:0px !important;gap:0;}.contact-flex-div img{width:100%;} .footer{margin:5px 13px 0px !important;padding:20px !important;}.social-web-container{gap:0 !important;}.skill-container p{text-align: center !important;}.aboutMe-container h3{margin-bottom:20px;} .aboutMe-container p{text-align:center !important;}.nav-links{height:192px;gap:0 !important;top:78px !important;}}
 
 
 

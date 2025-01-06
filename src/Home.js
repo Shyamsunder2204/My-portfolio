@@ -111,7 +111,7 @@ const handleMenuClick = () => {
         </div>
         <div className="skill-container">
             <h3>Skill Overview</h3>
-            <p style={{textAlign:'left'}}>Motivated and enthusiastic fresher with a degree in MCA, with a strong foundation in HTML, CSS, and JavaScript., Proficient in utilizing frameworks like React JS and Node JS. Relevant programming language Python and Database MySQL. Experienced in creating responsive and visually appealing websites. Passionate about staying up-to-date with the latest web development trends. Eager to contribute my skills and creativity to a dynamic team in the industry</p>
+            <p style={{textAlign:'center'}}>Eager and Passionate Full-Stack Web Developer with 1 year of hands-on experience building responsive web applications. Proficient in HTML5, CSS3, JavaScript, jQuery, React.js, PHP, Python, Node.js, and MySQL, with expertise in REST APIs, JSON data, and OpenAI API integration. Skilled in designing user-friendly interfaces, developing scalable backend solutions, and ensuring seamless database connectivity. A collaborative team player with strong communication skills, willing to learn and adapt to emerging technologies. Committed to delivering innovative, AI-driven tools and modern web solutions while staying updated with industry trends.</p>
              <a href="">Checkout my online resume</a>  
         </div>
         <div className="myskills-heading" id="skill-set-div">
@@ -123,22 +123,25 @@ const handleMenuClick = () => {
                 <ul>
                     <li>HTML5, CSS, Bootstrap</li>
                     <li>JavaScript</li>
+                    <li>JQuery</li>
                     <li>React JS</li>
                 </ul>
             </div>
             <div className="backend-div">
                 <h5>Backend</h5>
                 <ul>
+                    <li>PHP</li>
                     <li>Node JS</li>
                     <li>Python/Django</li>
-                    <li>PostgreSQL/MySQl</li>
+                    <li>MySQl</li>
                 </ul>
             </div>
             <div className="others-div">
                 <h5>others</h5>
                 <ul>
                     <li>Git</li>
-                    <li>Git hub</li>
+                    <li>GitHub</li>
+                    <li>Bitbucket</li>
                 </ul>
             </div>
         </div>
