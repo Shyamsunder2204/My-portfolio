@@ -669,8 +669,12 @@ margin-left: 10px;
     padding:10px;
   }
 };
-@media (max-width:600px){.skill-set-div{flex-direction: column;}.backend-div, .frontend-div, .others-div{padding:20px !important;max-width:100%;width:auto !important;margin:0 2.5rem !important;box-sizing: border-box;}.contact-form{padding:28px 28px 28px 10px !important;}.contact-flex-div{margin-left:0px !important;gap:0;}.contact-flex-div img{width:100%;} .footer{margin:5px 13px 0px !important;padding:20px !important;}.social-web-container{gap:0 !important;}.skill-container p{text-align: center !important;}.aboutMe-container h3{margin-bottom:20px;} .aboutMe-container p{text-align:center !important;}.nav-links{height:192px;gap:0 !important;top:78px !important;}}
-@media (max-width:500px){.social-web-container{gap:20px;}}
+@media (max-width:600px){.skill-set-div{flex-direction: column;}.backend-div, .frontend-div, .others-div{padding:20px !important;max-width:100%;width:auto !important;margin:0 2.5rem !important;box-sizing: border-box;}.contact-form{padding:28px 28px 28px 10px !important;}.contact-flex-div{margin-left:0px !important;gap:0;}.contact-flex-div img{width:100%;} .footer{margin:5px 13px 0px !important;padding:20px!important;}.skill-container p{text-align:center;}.aboutMe-container h3{margin-bottom:20px;} .aboutMe-container p{text-align:center !important;}.nav-links{height:192px;gap:0 !important;top:78px !important;}}
+@media (max-width:500px){
+  .social-web-container{
+    gap:20px;
+  }
+}
 
 
 
