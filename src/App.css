@@ -253,8 +253,15 @@
   font-weight: 700;
 }
 .skill-set-div{
+  margin:auto !important;
   margin-top:40px;
   color:white;
+  display:flex;
+  flex-direction: row;
+  gap:30px !important;
+  max-width:800px !important;
+  width:100%;
+  justify-content:center;
  
 }
 .skill-set-div h5{
