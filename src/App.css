@@ -295,9 +295,6 @@
    cursor: pointer;
    transition: 5s all;
 }
-.skill-container p{
-  margin:0px 2.5rem;
-}
 .myskills-heading h3{
   color:white;
   text-align: center;
@@ -712,9 +709,30 @@ margin-left: 10px;
 }
 .contact-form {
   margin-right: 0 !important;
+  padding:40px 20px !important;
 }
 .contact-flex-div .imageContainer {
   padding:0 !important;
+}
+.backend-div, .frontend-div, .others-div {
+  max-width: 100%;
+}
+.footer {
+  padding: 40px;
+  margin: 0 10px;
+}
+ul {
+  padding-left: 0;
+}
+.contact-form label {
+  margin-left: 0;
+  padding-left: 4px !important;
+}
+.contact-form button {
+  margin-left: 0 !important;
+}
+.profile img {
+  height: 340px;
 }
 
 }
