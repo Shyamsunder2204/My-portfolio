@@ -681,6 +681,43 @@ margin-left: 10px;
     gap:20px;
   }
 }
+@media (max-width:600px){
+  .skill-set-div {
+    margin: 40px 10px 10px;
+    width: auto;
+}
+.skill-container p {
+  margin-right: 0;
+  margin-left: 0;
+}
+.skill-container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.aboutMe-container h3 {
+  margin-bottom: 20px;
+}
+.aboutMe-container p {
+  width: auto !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+.btn-div .btn {
+  max-width: 100%;
+}
+.contact-flex-div {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  gap:3px !important;
+}
+.contact-form {
+  margin-right: 0 !important;
+}
+.contact-flex-div .imageContainer {
+  padding:0 !important;
+}
+
+}
 
 
 
